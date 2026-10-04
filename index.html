@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Nimay Pant, a computer science student at MIT Manipal interested in cybersecurity, cryptography, web development and software projects.">
+    <meta name="theme-color" content="#2c3e50">
+    <title>Nimay Pant - Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<a class="skip-link" href="#about">Skip to content</a>
+
+<header>
+    <div class="nav-container">
+        <div class="logo">Nimay Pant</div>
+
+        <nav aria-label="Main">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="breadcrumbs">
+    <div class="breadcrumbs-container" aria-label="Breadcrumb">
+        <a href="#home">Home</a> &gt;
+        <span aria-current="page">Profile</span>
+    </div>
+</div>
+
+<section id="home" class="hero">
+    <div class="hero-inner">
+
+        <div class="hero-text">
+            <img src="nimay.png" alt="Nimay Pant" class="profile-img">
+
+            <h1>Hello, I'm Nimay Pant</h1>
+
+            <p class="intro">
+                I'm a computer science student at MIT Manipal interested in
+                cybersecurity, cryptography, web development, and building
+                things that actually work.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#contact" class="btn">Get in Touch</a>
+                <a href="#projects" class="btn btn-ghost">View Projects</a>
+            </div>
+        </div>
+
+        <div class="hero-art">
+            <div class="crypto-card">
+                <div class="crypto-symbol">ECC</div>
+                <h3>Cryptography</h3>
+                <p>
+                    Exploring the maths and implementation behind secure
+                    communication.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<main id="main">
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p>
+            I'm a Computer and Communication Engineering student at MIT
+            Manipal. I spend most of my time around cybersecurity,
+            cryptography, software projects, and learning how things work
+            under the hood.
+        </p>
+
+        <p>
+            I like working close to the technical side of things, especially
+            systems, algorithms, databases, and backend development. I'm also
+            interested in the maths behind cryptography rather than treating
+            it as just a black-box tool.
+        </p>
+    </section>
+
+    <section id="experience">
+        <h2>Education &amp; Experience</h2>
+
+        <div class="timeline">
+
+            <div class="card">
+                <h3>MIT Manipal</h3>
+
+                <p>
+                    <strong>
+                        B.Tech Computer and Communication Engineering
+                    </strong>
+                    <br>
+                    Currently studying computer science and related systems,
+                    with a strong interest in cybersecurity, cryptography,
+                    backend development, and mathematical problem solving.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Research Society MIT</h3>
+
+                <p>
+                    <strong>
+                        Technical Head 
+                    </strong>
+                    <br>
+                    Worked on the technical side of RSM, including web
+                    development, GitHub, and technical support for the
+                    society's projects and online presence.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Research Society MIT</h3>
+
+                <p>
+                    <strong>
+                        Domain Head · Mathematics &amp; Physics, Web Development &amp; Cybersecurity
+                    </strong>
+                    <br>
+                    Helping organise activities around mathematics, physics,
+                    computational methods, web development, cybersecurity and research. I also work with
+                    students who want to explore difficult topics and research
+                    ideas.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Research &amp; Projects</h2>
+
+        <div class="project-grid">
+
+            <div class="card">
+                <h3>ECC &amp; Post-Quantum Cryptography Research</h3>
+
+                <p>
+                    <strong>Ongoing Research</strong>
+                    <br>
+                    Working on a research project around matrix-based methods
+                    for optimising a hybrid ECC and post-quantum cryptography
+                    system. The work looks at the mathematical side of
+                    cryptography as well as practical performance, including
+                    execution time and memory usage.
+                </p>
+
+                <ul class="tags" aria-label="Topics">
+                    <li>Cryptography</li>
+                    <li>ECC</li>
+                    <li>PQC</li>
+                    <li>Number Theory</li>
+                    <li>Linear Algebra</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Audio Processing &amp; DSP</h3>
+
+                <p>
+                    <strong>Personal Project</strong>
+                    <br>
+                    Built an audio processing project using C++ and Python,
+                    with SIMD optimisation and a path towards a VST3 plugin.
+                    The project combines low-level audio processing with a
+                    small web-based interface and experiments with ML-based
+                    audio features.
+                </p>
+
+                <ul class="tags" aria-label="Tools and topics">
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>DSP</li>
+                    <li>SIMD</li>
+                    <li>JUCE</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Distributed Job Scheduler</h3>
+
+                <p>
+                    <strong>Ongoing Project</strong>
+                    <br>
+                    Worked on a CLI-based distributed job scheduler in Go.
+                    The project uses Raft for coordination and focuses on
+                    scheduling, worker recovery, job state, and communication
+                    between nodes.
+                </p>
+
+                <ul class="tags" aria-label="Tools and topics">
+                    <li>Go</li>
+                    <li>Raft</li>
+                    <li>gRPC</li>
+                    <li>BoltDB</li>
+                    <li>Distributed Systems</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+
+        <div class="skills-grid">
+            <span class="skill-tag">Cybersecurity</span>
+            <span class="skill-tag">Cryptography</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Go</span>
+            <span class="skill-tag">HTML &amp; CSS</span>
+            <span class="skill-tag">SQL &amp; PL/SQL</span>
+            <span class="skill-tag">Git &amp; GitHub</span>
+            <span class="skill-tag">Audio Production</span>
+        </div>
+    </section>
+
+    <section id="interests">
+        <h2>Interests &amp; Hobbies</h2>
+
+        <p>
+            Outside of tech, music is a big part of my life. I produce music,
+            sing, and play guitar and drums. I'm especially into rock and enjoy
+            working on both the creative and technical side of music production.
+        </p>
+
+        <p>
+            I'm also working on improving my guitar playing, particularly
+            tapping technique and reducing unwanted string noise. Apart from
+            music, I enjoy chess, table tennis, movies, pop culture, and
+            learning about music history.
+        </p>
+
+        <div class="music-card">
+            <h3>My Music</h3>
+
+            <p>
+                Some of my own music and recordings.
+            </p>
+
+            <audio controls>
+                <source src="badhiya.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <p class="music-note">
+                One of the beats I made
+            </p>
+        </div>
+    </section>
+
+</main>
+
+<footer id="contact">
+
+    <div class="footer-content">
+
+        <div class="footer-section">
+            <h4>Contact Details</h4>
+
+            <p>
+                Primary Email:
+                <a href="mailto:nimaypant7@gmail.com">
+                    nimaypant7@gmail.com
+                </a>
+            </p>
+
+            <p>
+                Academic Email:
+                <a href="mailto:nimay.mitmpl2024@learner.manipal.edu">
+                    nimay.mitmpl2024@learner.manipal.edu
+                </a>
+            </p>
+        </div>
+
+        <div class="footer-section">
+            <h4>Social Media</h4>
+
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/nimay-pant-1b034831a/?isSelfProfile=true"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        LinkedIn
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/NimayPant"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        GitHub
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Site Map &amp; Legal</h4>
+
+            <ul>
+                <li>
+                    <a href="sitemap.html">
+                        Site Map
+                    </a>
+                </li>
+
+                <li>
+                    <a href="privacy.html">
+                        Privacy Policy
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <p class="footer-bottom">
+        &copy; 2026 Nimay Pant
+    </p>
+
+</footer>
+
+</body>
+</html>
